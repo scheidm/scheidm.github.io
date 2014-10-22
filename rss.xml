@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+  <channel>
+    <title>Mark Scheid</title>
+    <description>Mark Scheid</description>
+    <link/>
+    <pubDate>Oct 22, 2014</pubDate>
+    <item>
+      <title>Git</title>
+      <link>/git</link>
+      <description>
+&lt;div class="page-header"&gt;
+&lt;h1&gt;Git version history &lt;span class="text-muted"&gt;&lt;/span&gt;&lt;span class="pull-right"&gt;&lt;a href="https://github.com/scheidm/quest-till-done" class="btn btn-default btn-sm" target="_blank"&gt;&lt;i class="fa fa-github"&gt;&lt;/i&gt; View on GitHub&lt;/a&gt;&lt;/span&gt;&lt;/h1&gt;
+&lt;div class="git-info"&gt;
+&lt;i class="fa fa-history"&gt;&lt;/i&gt; &lt;b&gt;&lt;/b&gt; commits
+&lt;i class="fa fa-code-fork"&gt;&lt;/i&gt; &lt;b&gt;&lt;/b&gt; branches
+&lt;i class="fa fa-files-o"&gt;&lt;/i&gt; &lt;b&gt;&lt;/b&gt; tracked files
+&lt;i class="fa fa-tag"&gt;&lt;/i&gt; &lt;b&gt;&lt;/b&gt; releases
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;!--// page-header end --&gt;
+&lt;div class="top-buffer"&gt;&lt;/div&gt;
+
+
+
+&lt;p class="text-muted small"&gt;
+
+&lt;/p&gt;
+
+&lt;script type="text/javascript"&gt;
+	$('#gitTabs a').click(function (e) {
+	e.preventDefault()
+	$(this).tab('show')
+})
+&lt;/script&gt;</description>
+    </item>
+    <item>
+      <title>Projects</title>
+      <link>/projects</link>
+      <pubDate>Oct 21, 2014</pubDate>
+      <description/>
+    </item>
+    <item>
+      <title>Resume</title>
+      <link>/resume</link>
+      <pubDate>Oct 21, 2014</pubDate>
+      <description>&lt;p&gt;&lt;embed src="/assets/media/Scheidm_Resume.pdf" width=100% height="1400"&gt;&lt;/p&gt;
+</description>
+    </item>
+    <item>
+      <title>Tags</title>
+      <link>/tags</link>
+      <description>&lt;div class="page-header"&gt;
+&lt;h1&gt;Tags&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class="top-buffer"&gt;&lt;/div&gt;
+
+&lt;div class="btn-group"&gt;
+&lt;/div&gt;
+
+&lt;div class="top-buffer"&gt;&lt;/div&gt;
+
+&lt;div class="panel-group" id="accordion"&gt;
+&lt;/div&gt;
+
+&lt;script type="text/javascript"&gt;
+$(document).ready(function() {
+// Opening accordion based on URL
+var url = document.location.toString();
+    if ( url.match('#') ) {
+        $('#'+url.split('#')[1]).collapse('show');
+    }
+});
+&lt;/script&gt;
+</description>
+    </item>
+    <item>
+      <title>Who am I?</title>
+      <link>/</link>
+      <description>&lt;h1 id="toc_0"&gt;Greetings visitor!&lt;/h1&gt;
+
+&lt;p&gt;My name is Mark Scheid, a programmer hailing from Northboro, MA. I have a
+passion for creation, whether it be a new web application, a piece of fiction, a
+community event, or the perfect music playlist. My passion lies in the
+possibilities unlocked by modern web technologies, and I love learning new tools
+and applying them to solving interesting problems. I created this website to
+showcase my work, in the hopes of finding like-minded people to collaborate
+with.&lt;/p&gt;
+
+&lt;h1 id="toc_1"&gt;About me&lt;/h1&gt;
+
+&lt;h2 id="toc_2"&gt;&lt;i class="fa fa-code fa-fw"&gt;&lt;/i&gt; Programming Languages&lt;/h2&gt;
+
+&lt;div class="row-fluid"&gt;
+  &lt;div class="col-md-4"&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;h4 class="lang"&gt;Ruby&lt;/h4&gt;
+      &lt;div class="progress"&gt;
+        &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;h4 class="lang"&gt;Python&lt;/h4&gt;
+      &lt;div class="progress"&gt;
+        &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;h4 class="lang"&gt;Javascript&lt;/h4&gt;
+      &lt;div class="progress"&gt;
+        &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;h4 class="lang"&gt;Java&lt;/h4&gt;
+      &lt;div class="progress"&gt;
+        &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;h4 class="lang"&gt;C++&lt;/h4&gt;
+      &lt;div class="progress"&gt;
+        &lt;div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;"&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div class="col-md-8 lang"&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;div class="col-md-12"&gt;
+        &lt;p class="lang"&gt; Ruby has been my primary production language since April 2013. I love the freedom of expression Ruby gives you, and the quality of the libraries available on Rubygems. I likewise have had a lot of opportunity to use Python, both for all those 1-off command line tools you end up needing, and for academic work.&lt;/p&gt;
+        &lt;p class="lang"&gt; Over the last year, the vast majority of my time has been going towards a web application called Quest Till Done. Built on Rails, it's a very visual productivity tool, and so most of our interface has been JavaScript heavy. For the last few months, I've been playing with frameworks as we begin to migrate the whole project to an AJAX approach.  &lt;/p&gt;
+        &lt;p class="lang"&gt;Most of my academic programming in the last few years has been Java, so I remain very comfortable with that language. My first formal code education was in C++, and I remain comfortable enough that I can drop some C extensions into my code when necessary."&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="hidden-sm hidden-xs col-md-12"
+        &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;&lt;i class="fa fa-desktop fa-fw"&gt;&lt;/i&gt; Tools of the Trade&lt;/h1&gt;
+
+&lt;div class="row-fluid"&gt;
+  &lt;div class="col-md-8"&gt;
+    &lt;div class="row-fluid"&gt;
+      &lt;div class="col-md-12"&gt;
+        &lt;p&gt;While I was always attracted to Vim for the speed of expression and
+        wealth of plugins, the proliferation of free or inexpensive server
+        options has made this command line tool even more valuable. It is the standard
+        by which I judge other programs in my dev environment. Once I found
+        Vundle and could host my whole setup on a GitHub repository, bridging my
+        configuration between computers has been a breeze&lt;/p&gt;
+        &lt;p&gt;I still remain loyal to Bash, and Tmux has made managing multiple
+        sessions so much simpler and more powerful than the old days with
+        Screen. Vim-like bindings make the tool instantly comfortable, and make
+        quick work of checking on server errors in my latest web-app.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;div class="hidden-sm hidden-xs col-md-12"&gt;
+       &lt;/br&gt;&lt;/br&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div  class="col-md-4"&gt;&lt;img style="height:250px" src="/assets/media/Vim_logo.png"&gt;&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;&lt;i class="fa fa-graduation-cap fa-fw"&gt;&lt;/i&gt; Education&lt;/h1&gt;
+
+&lt;div class="row-fluid"&gt;
+  &lt;div class="col-md-4"&gt;&lt;img style="height:250px" src="/assets/media/Drexel.png"&gt;&lt;/div&gt;
+  &lt;div class="col-md-8"&gt;
+      &lt;div class="row-fluid"&gt;
+        &lt;div class="col-md-12"&gt;
+          &lt;p&gt;I've completed 2 degrees at Drexel University, giving me a rather
+          unique perspective on the world. My first degree was in International
+          Area Studies, which gave me a solid foundation in Mandarin Chinese,
+          Eastern philosophy, and Anthropology. My second degree in Computer
+          Science laid the foundation for my professional career, and earned me
+          domain knowledge of Object Oriented design patterns, data structures
+          and algorythms, and Unix systems&lt;/p&gt;
+        &lt;div class="hidden-sm hidden-xs col-md-12"&gt;
+          &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;h1&gt;&lt;i class="fa fa-comment fa-fw"&gt;&lt;/i&gt; Languages&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;English (Native)&lt;/li&gt;
+  &lt;li&gt;Mandarin Chinese(Intermediate)&lt;/li&gt;
+  &lt;li&gt;Spanish (Beginner)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1&gt;&lt;i class="fa fa-wrench fa-fw"&gt;&lt;/i&gt; Frameworks&lt;/h1&gt;
+
+&lt;p&gt;&lt;img class="frameworks" src="/assets/media/Ruby_on_Rails.svg.png"&gt;
+&lt;img class="frameworks" src="/assets/media/vagrant-logo.png"&gt;
+&lt;img class="frameworks" src="/assets/media/cucumber_logo.png"&gt;
+&lt;img class="frameworks" src="/assets/media/Twitter_Bootstrap_logo.svg.png"&gt;
+&lt;img class="frameworks" src="/assets/media/AngularJS.png"&gt;
+&lt;img class="frameworks" src="/assets/media/OC_Chef_Logo.png"&gt;
+&lt;img class="frameworks" src="/assets/media/backbone.png"&gt;&lt;/p&gt;
+</description>
+    </item>
+  </channel>
+</rss>

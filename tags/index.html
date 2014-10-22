@@ -1,0 +1,125 @@
+<!DOCTYPE html> <html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mark Scheid | Tags</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mark Scheid">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Stylesheets -->
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+	
+<link href='/assets/stylesheets/bootstrap-6a4f89e5c8b435931eef0b99e7c61aef.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/assets/stylesheets/dataTables.bootstrap-f43e128519439e96aba32819ab3b30b3.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/assets/stylesheets/google_prettify/prettify-27c270e41c09f16ba1b0c04bddffa2ee.css' type='text/css' rel='stylesheet' media='all'>
+<link href='/assets/stylesheets/style-0d5790f65336e1508bd8fccaec2e9539.css' type='text/css' rel='stylesheet' media='all'>    
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+    <!-- JavaScript -->
+	<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10-dev/js/jquery.dataTables.min.js"></script>    
+	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/tabletools/2.2.2/js/dataTables.tableTools.js"></script>
+<script src='/assets/javascripts/bootstrap.min-e1d08589ec26bec3a81625ce274d76d9.js'></script>
+<script src='/assets/javascripts/dataTables.bootstrap-b4fe4e6a77ba22ab7e7fc9604f8a79cc.js'></script>
+<script src='/assets/javascripts/custom.js'></script>
+<script src='/assets/javascripts/jquery.timeago-99b0288324f92c1c2f2952ec7e8ec1ae.js'></script>  </head>
+
+  <body>
+
+    <nav id="cwc" class="navbar navbar-default navbar-fixed-top cwc" role="navigation">
+    	<div class="container">
+			<div class="navbar-header">
+				<div class="navbar-brand">
+					<a href="/">Mark Scheid</a>
+					<span class="badge hidden-xs"></span>
+				</div>
+			</div>
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+			  <ul class="nav navbar-nav">
+				  
+				    <li><a href="/resume">Resume</a></li>
+				  
+				  
+				    <li><a href="/projects">Projects</a></li>
+				  
+          <li><a href="http://www.linkedin.com/pub/mark-scheid/90/a26/903">LinkedIn</a></li>
+          <li><a href="https://github.com/scheidm">GitHub</a></li>
+			  </ul>
+			</div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+<h1>Tags</h1>
+</div>
+
+<div class="top-buffer"></div>
+
+<div class="btn-group">
+</div>
+
+<div class="top-buffer"></div>
+
+<div class="panel-group" id="accordion">
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+// Opening accordion based on URL
+var url = document.location.toString();
+    if ( url.match('#') ) {
+        $('#'+url.split('#')[1]).collapse('show');
+    }
+});
+</script>
+
+      </div>
+
+    </div>
+    
+      <div class="footer">
+        <div class="container">
+          <p>© 2014 <a href="mailto:contact@wellcomposed.net">Mark Scheid</a>
+          , built with <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
+          </p>
+          
+          <p>Theme adapted from template by <a href="https://github.com/vasiliosz">Vasilios Zachariadis</p>
+        </div>
+      </div>
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    
+    <!-- Activate Bootstrap Tooltips and Popovers-->
+    <script type="text/javascript">
+	jQuery(document).ready(function() {
+	  jQuery("time.timeago").timeago();
+	});
+	$("#rcode").click(function () {
+    	this.select();
+	});
+	</script>  
+  </body>
+</html>

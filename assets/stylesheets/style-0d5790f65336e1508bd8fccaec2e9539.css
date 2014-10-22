@@ -1,0 +1,370 @@
+.frameworks{
+  height: 145px;
+  margin: 5px;
+}
+.lang{
+  margin: 10px 0px 10px;
+}
+.progress{
+  background-image: none;
+  border-width: 2px;
+  border-style: solid; 
+  border-color: #000;
+  border-radius: 25px;
+  margin: 0px;
+}
+.progress-bar{
+  background-image: none;
+  background-color: #60CADA;
+}
+
+body {
+  color: #000
+}
+
+a {
+  color: #328597;
+}
+
+a:focus {
+  color: #328597;
+}
+a:hover {
+  color: #60CADA;
+}
+
+.wcw {
+  color: #3C686B;
+  background-color: #FFF;
+}
+@media (min-width:768px)
+{
+  .text-right-responsive {text-align:right;}
+  .text-left-responsive {text-align:left;}
+  .text-center-responsive {text-align:center;}
+}  
+
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+#content h1, h2, h3 :before {
+	padding-top: 10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+  color: #3C686B
+}
+
+h6,
+.h6 {
+  font-size: 85%;
+  text-transform: uppercase;
+}
+
+/*.panel-group h1,h2,h3,h4 {
+	text-transform:capitalize;
+}*/
+
+/* Thumbnails overlay */
+/* Hover effect */
+.thumbnail {
+/*	max-width: 100%;
+	display: block;*/
+    position:relative;
+    overflow:hidden;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+}
+.caption {
+    position:absolute;
+    bottom:0;
+    right:0;
+    background:rgba(44, 62, 80, 0.75);
+    width:100%;
+    height:30%;
+    padding:10%;
+    display: none;
+    text-align:center;
+    color:#fff !important;
+    z-index:2;
+}
+
+/* Thumbnail grid fix */
+.image{
+    position:relative;
+    overflow:hidden;
+    padding-bottom:100%;
+}
+.image img{
+    position:absolute;
+}
+
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.dataTables_filter {
+   width: 200px;
+   margin-right: 15px;
+   display: block-inline;
+   float: left;
+}
+
+th {
+	white-space: nowrap;
+}
+
+/* Make images responsive by default */
+img {
+	  display: inline-block;
+	  height: auto;
+	  max-width: 100%;
+}
+
+.panel-group h4:before {
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+}
+
+/* Modal styling */
+.modal-dialog {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+.modal-content {
+	height: 100%;
+	width: 100%;
+}
+.modal-body {
+	height: 95%;
+	width: 100%
+}
+.modal-header {
+   background:#2c3e50;
+   text-align: left;
+   color: #fff;
+}
+.modal-header .close {
+	color: #fff;
+}
+
+.content {
+	padding-top: 70px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	padding-bottom: 50px;
+}
+
+.top-buffer { margin-top:30px; }
+.top-buffer-2x { margin-top:60px; }
+
+.navbar-brand > a {
+  color: #60CADA;
+	font-size: 24px;
+	font-weight: 300;
+	/*text-transform: capitalize;*/
+	text-decoration: none;
+}
+
+nav#cwc{
+  background-color: #011C17;
+}
+.navbar-brand > a:hover {
+  color: #328597;
+}
+.navbar-default .navbar-nav > li > a:hover{
+  color: #328597;
+}
+.navbar-default .navbar-nav > li > a:focus{
+  color: #328597;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 18px;
+}
+
+.navbar-brand span {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: none;
+	vertical-align: center;
+	margin: 0;
+}
+
+/*#listing li { padding: 0px; }
+#listing li a { margin: 0px; display: block; width: 100%; height: 100%; }*/
+
+.tag_box i.fa {
+	vertical-align: middle;
+}
+
+.footer span {
+	font-size: 12px;
+	font-weight: 300;
+	text-transform: none;
+	vertical-align: center;
+	margin: 0;
+}
+
+.content .badge {
+	font-weight: 300;
+	vertical-align: middle;
+}
+
+.git {
+	margin: 10px 5px;
+}
+.git-panel-body {
+	font-family:Menlo;
+	font-size:11px;
+}
+.git-info {
+	margin: 10px;
+}
+
+.git-pre {
+	overflow: auto;
+	width: 500px;
+}
+
+.tooltip-inner {
+    white-space:pre-wrap;
+    text-align: left;
+}
+
+/* Custom container */
+.container-narrow {
+  margin: 0 auto;
+  max-width: 700px;
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* posts index */
+.post > h3.title {
+  position:relative;
+  padding-top:10px;
+}
+.post > h3.title span.date { 
+  position:absolute;
+  right:0;
+  font-size:0.9em;
+}
+.post > .more {
+  margin:10px 0;
+  text-align:left;
+}
+
+/* post-full*/
+.post-full .date {
+  margin-bottom:20px;
+  font-weight:bold;
+}
+
+/* tag_box TODO: fix styling */
+.tag_box {
+  list-style:none;
+  margin:0;
+  overflow:hidden;
+  padding:0px;
+}
+.tag_box li {
+  line-height:28px;
+}
+.tag_box li i {
+  opacity:0.9;
+}
+.tag_box.inline li {
+  float:left;
+}
+.tag_box a {
+  padding: 3px 6px;
+  margin: 2px;
+  background: #eee;
+  color:#555;
+  border-radius: 3px;
+  text-decoration:none;
+  border:1px solid #ddd;
+}
+.tag_box a span{
+  vertical-align:super;
+  font-size:0.5em;
+}
+.tag_box a:hover {
+  background-color:#e5e5e5;
+}
+.tag_box a.active {
+  background:#57A957;
+  border:1px solid #4C964D;
+  color:#FFF;
+}
+
+/* Sticky footer */
+/* For Sticky footer with fixed navbar - Bootstrap example */
+/* Sticky footer styles
+-------------------------------------------------- */
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+
+  background-color: #fff;
+}
+
+/* GitHub tasklist style */
+
+.task-list-item {
+    list-style-type: none
+}
+
+.task-list-item label {
+    font-weight: normal
+}
+
+.task-list-item.enabled label {
+    cursor: pointer
+}
+
+.task-list-item+.task-list-item {
+    margin-top: 3px
+}
+
+.task-list-item-checkbox {
+    margin: 0 4px 0.25em -20px;
+}
+
+/* Collapsible panel with list-group */
+.panel-group .list-group {
+	margin-bottom: 0;
+}
+
+.panel-group .list-group .list-group-item {
+	border-radius: 0;
+	border-left: none;
+	border-right: none;
+}
+
+.panel-group .list-group .list-group-item:last-child {
+	border-bottom: none;
+}
+
