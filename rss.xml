@@ -184,13 +184,13 @@ with.&lt;/p&gt;
 
 &lt;h1&gt;&lt;i class="fa fa-wrench fa-fw"&gt;&lt;/i&gt; Frameworks&lt;/h1&gt;
 
-&lt;p&gt;&lt;img class="frameworks" src="/assets/media/Ruby_on_Rails.svg.png"&gt;
-&lt;img class="frameworks" src="/assets/media/vagrant-logo.png"&gt;
-&lt;img class="frameworks" src="/assets/media/cucumber_logo.png"&gt;
-&lt;img class="frameworks" src="/assets/media/Twitter_Bootstrap_logo.svg.png"&gt;
-&lt;img class="frameworks" src="/assets/media/AngularJS.png"&gt;
-&lt;img class="frameworks" src="/assets/media/OC_Chef_Logo.png"&gt;
-&lt;img class="frameworks" src="/assets/media/backbone.png"&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://rubyonrails.org/"&gt;&lt;img class="frameworks" src="/assets/media/Ruby_on_Rails.svg.png" alt="Ruby on Rails"&gt;&lt;/a&gt;
+&lt;a href="https://www.vagrantup.com/"&gt;&lt;img class="frameworks" alt="Vagrant" src="/assets/media/vagrant-logo.png"&gt;&lt;/a&gt;
+&lt;a href="http://cukes.info/"&gt;&lt;img class="frameworks" alt="Cucumber BDD" src="/assets/media/cucumber_logo.png"&gt;&lt;/a&gt;
+&lt;a href="http://bootstrapdocs.com/v3.2.0/docs/"&gt;&lt;img class="frameworks" alt="Bootstrap" src="/assets/media/Twitter_Bootstrap_logo.svg.png"&gt;&lt;/a&gt;
+&lt;a href="https://angularjs.org/"&gt;&lt;img class="frameworks" alt="AngularJS" src="/assets/media/AngularJS.png"&gt;&lt;/a&gt;
+&lt;a href="https://www.getchef.com/"&gt;&lt;img class="frameworks" alt="Opscode Chef" src="/assets/media/OC_Chef_Logo.png"&gt;&lt;/a&gt;
+&lt;a href="http://backbonejs.org/"&gt;&lt;img class="frameworks" alt="BackboneJS" src="/assets/media/backbone.png"&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
   </channel>
