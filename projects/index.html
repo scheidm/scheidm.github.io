@@ -36,16 +36,30 @@
 
   <body>
 
-    <nav id="cwc" class="navbar navbar-default navbar-fixed-top cwc" role="navigation">
+    <nav id="cwc" class="navbar navbar-default navbar-fixed-top cwc" role="navigation" style="height:70px">
     	<div class="container container-xs-height">
 			<div class="navbar-header">
 				<div class="navbar-brand">
 					<a href="/">Mark Scheid</a>
-					<span class="badge hidden-xs"></span>
+          <span class="btn-group hidden-lg hidden-md hidden-sm">
+            <button type="button" style="background-color: #328597" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+              <i style="margins:5px" class="fa fa-bars"></i>  
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                
+                  <li><a href="/resume">Resume</a></li>
+                
+                  <li class="active"><a href="/projects" class="active">Projects</a></li>
+                
+                
+                <li><a href="http://www.linkedin.com/pub/mark-scheid/90/a26/903">LinkedIn</a></li>
+                <li><a href="https://github.com/scheidm">GitHub</a></li>
+            </ul>
+        </span>
 				</div>
 			</div>
-			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-			  <ul class="nav navbar-nav">
+			<div class="navbar-right">
+			  <ul class="nav navbar-nav hidden-xs">
 				  
 				    <li><a href="/resume">Resume</a></li>
 				  
