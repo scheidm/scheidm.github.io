@@ -4,7 +4,7 @@
     <title>Mark Scheid</title>
     <description>Mark Scheid</description>
     <link/>
-    <pubDate>Oct 22, 2014</pubDate>
+    <pubDate>Oct 23, 2014</pubDate>
     <item>
       <title>Git</title>
       <link>/git</link>
@@ -92,7 +92,7 @@ with.&lt;/p&gt;
 
 &lt;h2 id="toc_2"&gt;&lt;i class="fa fa-code fa-fw"&gt;&lt;/i&gt; Programming Languages&lt;/h2&gt;
 
-&lt;div class="row-fluid"&gt;
+&lt;div class="row-fluid row-xs-height"&gt;
   &lt;div class="col-md-4"&gt;
     &lt;div class="row-fluid"&gt;
       &lt;h4 class="lang"&gt;Ruby&lt;/h4&gt;
@@ -137,56 +137,40 @@ with.&lt;/p&gt;
         &lt;p class="lang"&gt; Over the last year, the vast majority of my time has been going towards a web application called Quest Till Done. Built on Rails, it's a very visual productivity tool, and so most of our interface has been JavaScript heavy. For the last few months, I've been playing with frameworks as we begin to migrate the whole project to an AJAX approach.  &lt;/p&gt;
         &lt;p class="lang"&gt;Most of my academic programming in the last few years has been Java, so I remain very comfortable with that language. My first formal code education was in C++, and I remain comfortable enough that I can drop some C extensions into my code when necessary."&lt;/p&gt;
       &lt;/div&gt;
-      &lt;div class="hidden-sm hidden-xs col-md-12"
-        &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
-      &lt;/div&gt;
     &lt;/div&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h1&gt;&lt;i class="fa fa-desktop fa-fw"&gt;&lt;/i&gt; Tools of the Trade&lt;/h1&gt;
 
-&lt;div class="row-fluid"&gt;
-  &lt;div class="col-md-8"&gt;
-    &lt;div class="row-fluid"&gt;
-      &lt;div class="col-md-12"&gt;
-        &lt;p&gt;While I was always attracted to Vim for the speed of expression and
-        wealth of plugins, the proliferation of free or inexpensive server
-        options has made this command line tool even more valuable. It is the standard
-        by which I judge other programs in my dev environment. Once I found
-        Vundle and could host my whole setup on a GitHub repository, bridging my
-        configuration between computers has been a breeze&lt;/p&gt;
-        &lt;p&gt;I still remain loyal to Bash, and Tmux has made managing multiple
-        sessions so much simpler and more powerful than the old days with
-        Screen. Vim-like bindings make the tool instantly comfortable, and make
-        quick work of checking on server errors in my latest web-app.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class="hidden-sm hidden-xs col-md-12"&gt;
-       &lt;/br&gt;&lt;/br&gt;
-      &lt;/div&gt;
-    &lt;/div&gt;
+&lt;div class="row-fluid row-xs-height"&gt;
+  &lt;div  class="col-md-push-8 col-sm-4" style="height:273px"&gt;&lt;img class="img-lrg" src="/assets/media/Vim_logo.png"&gt;&lt;/div&gt;
+  &lt;div class="col-md-pull-4 col-sm-8"&gt;
+    &lt;p&gt;While I was always attracted to Vim for the speed of expression and
+    wealth of plugins, the proliferation of free or inexpensive server
+    options has made this command line tool even more valuable. It is the standard
+    by which I judge other programs in my dev environment. Once I found
+    Vundle and could host my whole setup on a GitHub repository, bridging my
+    configuration between computers has been a breeze&lt;/p&gt;
+    &lt;p&gt;I still remain loyal to Bash, and Tmux has made managing multiple
+    sessions so much simpler and more powerful than the old days with
+    Screen. Vim-like bindings make the tool instantly comfortable, and make
+    quick work of checking on server errors in my latest web-app.&lt;/p&gt;
   &lt;/div&gt;
-  &lt;div  class="col-md-4"&gt;&lt;img style="height:250px" src="/assets/media/Vim_logo.png"&gt;&lt;/div&gt;
 &lt;/div&gt;
 
 &lt;h1&gt;&lt;i class="fa fa-graduation-cap fa-fw"&gt;&lt;/i&gt; Education&lt;/h1&gt;
 
-&lt;div class="row-fluid"&gt;
-  &lt;div class="col-md-4"&gt;&lt;img style="height:250px" src="/assets/media/Drexel.png"&gt;&lt;/div&gt;
+&lt;div class="row-fluid row-xs-height"&gt;
+  &lt;div class="col-md-4"&gt;&lt;img class="img-lrg"  src="/assets/media/Drexel.png"&gt;&lt;/div&gt;
   &lt;div class="col-md-8"&gt;
-      &lt;div class="row-fluid"&gt;
-        &lt;div class="col-md-12"&gt;
-          &lt;p&gt;I've completed 2 degrees at Drexel University, giving me a rather
-          unique perspective on the world. My first degree was in International
-          Area Studies, which gave me a solid foundation in Mandarin Chinese,
-          Eastern philosophy, and Anthropology. My second degree in Computer
-          Science laid the foundation for my professional career, and earned me
-          domain knowledge of Object Oriented design patterns, data structures
-          and algorythms, and Unix systems&lt;/p&gt;
-        &lt;div class="hidden-sm hidden-xs col-md-12"&gt;
-          &lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;&lt;/br&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
+    &lt;p&gt;I've completed 2 degrees at Drexel University, giving me a rather
+    unique perspective on the world. My first degree was in International
+    Area Studies, which gave me a solid foundation in Mandarin Chinese,
+    Eastern philosophy, and Anthropology. My second degree in Computer
+    Science laid the foundation for my professional career, and earned me
+    domain knowledge of Object Oriented design patterns, data structures
+    and algorythms, and Unix systems&lt;/p&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
