@@ -1,9 +1,0 @@
-<h3>{{year}}</h3>
-{{#months}}
-  <h4>{{month}}</h4>
-  <div class="list-group">
-  {{#posts?to_posts}}
-    <a id="listing" class="list-group-item" href="{{url}}"><span class="text-muted small">{{ date }}</span> {{title}}</a>
-  {{/posts?to_posts}}
-  </div>
-{{/months}}
