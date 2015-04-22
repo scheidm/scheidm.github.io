@@ -1,225 +1,324 @@
-<!DOCTYPE html> <html lang="en">
+<!DOCTYPE html>
+<html lang='en'>
   <head>
-    <meta charset="utf-8">
-    <title>Mark Scheid | Who am I?</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Mark Scheid">
-
+    <meta charset='utf-8'>
+    <title>
+      Mark Scheid
+    </title>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <meta>
+    <meta content='Mark Scheid' name='author'>
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
     <!-- Stylesheets -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-	
-<link href='/assets/stylesheets/bootstrap-6a4f89e5c8b435931eef0b99e7c61aef.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/assets/stylesheets/dataTables.bootstrap-f43e128519439e96aba32819ab3b30b3.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/assets/stylesheets/google_prettify/prettify-27c270e41c09f16ba1b0c04bddffa2ee.css' type='text/css' rel='stylesheet' media='all'>
-<link href='/assets/stylesheets/style-b81e7947096a73d164c224dfb81b935f.css' type='text/css' rel='stylesheet' media='all'>    
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css' rel='stylesheet'>
     <!-- Le fav and touch icons -->
-  <!-- Update these with your own images
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
-  -->
-    <!-- JavaScript -->
-	<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.10-dev/js/jquery.dataTables.min.js"></script>    
-	<script type="text/javascript" language="javascript" src="//cdn.datatables.net/tabletools/2.2.2/js/dataTables.tableTools.js"></script>
-<script src='/assets/javascripts/bootstrap.min-e1d08589ec26bec3a81625ce274d76d9.js'></script>
-<script src='/assets/javascripts/dataTables.bootstrap-b4fe4e6a77ba22ab7e7fc9604f8a79cc.js'></script>
-<script src='/assets/javascripts/custom.js'></script>
-<script src='/assets/javascripts/jquery.timeago-99b0288324f92c1c2f2952ec7e8ec1ae.js'></script>  </head>
-
+    <!-- Update these with your own images -->
+    <link href='images/favicon.ico' rel='shortcut icon'>
+    <link href='images/apple-touch-icon.png' rel='apple-touch-icon'>
+    <link href='images/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
+    <link href='images/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
+    <script language='javascript' src='//code.jquery.com/jquery-1.10.2.min.js' type='text/javascript'></script>
+    <link href='/assets/stylesheets/bootstrap.css' rel='stylesheet'>
+    <link href='/assets/stylesheets/dataTables.bootstrap.css' rel='stylesheet'>
+    <link href='/assets/stylesheets/google_prettify/prettify.css' rel='stylesheet'>
+    <link href='/assets/stylesheets/theme.css' rel='stylesheet'>
+    <link href='/assets/stylesheets/local.css' rel='stylesheet'>
+    <script language='javascript' src='/assets/javascripts/bootstrap.min.js' type='text/javascript'></script>
+    <script language='javascript' src='/assets/javascripts/jquery.timeago.js' type='text/javascript'></script>
+  </head>
   <body>
-
-    <nav id="cwc" class="navbar navbar-default navbar-fixed-top cwc" role="navigation" style="height:70px">
-    	<div class="container container-xs-height">
-			<div class="navbar-header">
-				<div class="navbar-brand">
-					<a href="/">Mark Scheid</a>
-          <span class="btn-group hidden-lg hidden-md hidden-sm">
-            <button type="button" style="background-color: #328597" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-              <i style="margins:5px" class="fa fa-bars"></i>  
-            </button>
-            <ul class="dropdown-menu" role="menu">
-                
-                  <li><a href="/resume">Resume</a></li>
-                
-                
-                  <li><a href="/projects">Projects</a></li>
-                
-                <li><a href="http://www.linkedin.com/pub/mark-scheid/90/a26/903">LinkedIn</a></li>
-                <li><a href="https://github.com/scheidm">GitHub</a></li>
-            </ul>
-        </span>
-				</div>
-			</div>
-			<div class="navbar-right">
-			  <ul class="nav navbar-nav hidden-xs">
-				  
-				    <li><a href="/resume">Resume</a></li>
-				  
-				  
-				    <li><a href="/projects">Projects</a></li>
-				  
-          <li><a href="http://www.linkedin.com/pub/mark-scheid/90/a26/903">LinkedIn</a></li>
-          <li><a href="https://github.com/scheidm">GitHub</a></li>
-			  </ul>
-			</div>
+    <nav class='navbar navbar-default navbar-fixed-top' id='main-nav' role='navigation' style='height:70px'>
+      <div class='container container-xs-height'>
+        <div class='navbar-header'>
+          <div class='navbar-brand'>
+            <a href='/'>
+              Mark Scheid
+            </a>
+            <span class='btn-group hidden-lg hidden-md hidden-sm'>
+              <button class='btn btn-default dropdown-toggle' type='button'>
+                <i class='fa fa-bars' style='margins:5px'></i>
+              </button>
+              <ul class='dropdown-menu' role='menu'>
+                <li>
+                  <a href='/projects'>
+                    Projects
+                  </a>
+                </li>
+                <li>
+                  <a href='/resume'>
+                    Resume
+                  </a>
+                </li>
+                <li>
+                  <a href='http://www.linkedin.com/pub/mark-scheid/90/a26/903'>
+                    LinkedIn
+                  </a>
+                </li>
+                <li>
+                  <a href='https://github.com/scheidm'>
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </span>
+          </div>
         </div>
+        <div class='navbar-right'>
+          <ul class='nav navbar-nav hidden-xs'>
+            <li>
+              <a href='/projects'>
+                Projects
+              </a>
+            </li>
+            <li>
+              <a href='/resume'>
+                Resume
+              </a>
+            </li>
+            <li>
+              <a href='http://www.linkedin.com/pub/mark-scheid/90/a26/903'>
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a href='https://github.com/scheidm'>
+                GitHub
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
-
-    <div class="container">
-
-      <div class="content">
-        <h1 id="toc_0">Greetings visitor!</h1>
-
-<p>My name is Mark Scheid, a programmer hailing from Northboro, MA. I have a
-passion for creation, whether it be a new web application, a piece of fiction, a
-community event, or the perfect music playlist. My passion lies in the
-possibilities unlocked by modern web technologies, and I love learning new tools
-and applying them to solving interesting problems. I created this website to
-showcase my work, in the hopes of finding like-minded people to collaborate
-with.</p>
-
-<h1 id="toc_1">About me</h1>
-
-<h2 id="toc_2"><i class="fa fa-code fa-fw"></i> Programming Languages</h2>
-
-<div class="row-fluid row-xs-height">
-  <div class="col-md-4">
-    <div class="row-fluid">
-      <h4 class="lang">Ruby</h4>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+    <div class='container'>
+      <div class='content'>
+        <h1>Greetings visitor!</h1>
+        <p>
+          My name is Mark Scheid, a programmer hailing from Northboro, MA. I have a
+          passion for creation, whether it be a new web application, a piece of fiction, a
+          community event, or the perfect music playlist. My passion lies in the
+          possibilities unlocked by modern web technologies, and I love learning new tools
+          and applying them to solving interesting problems. I created this website to
+          showcase my work, in the hopes of finding like-minded people to collaborate
+          with.
+        </p>
+        <h1>About me</h1>
+        <h2>
+          <i class='fa fa-code fa-fw'></i>
+          Programming Languages
+        </h2>
+        <div class='row-fluid row-xs-height'>
+          <div class='col-md-4'>
+            <div class='row-fluid'>
+              <h4 class='lang'>Ruby</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 80%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>Python</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 70%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>Javascript</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 60%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>Java</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='61' class='progress-bar' role='progressbar' style='width: 50%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>Perl</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 40%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>SQL</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 30%;'></div>
+              </div>
+            </div>
+            <div class='row-fluid'>
+              <h4 class='lang'>C++</h4>
+              <div class='progress'>
+                <div aria-valuemax='100' aria-valuemin='0' aria-valuenow='60' class='progress-bar' role='progressbar' style='width: 30%;'></div>
+              </div>
+            </div>
+          </div>
+          <div class='col-md-8 lang'>
+            <p>
+              Ruby has been my primary production language since April 2013. I love the freedom of expression Ruby gives you, and the quality of the libraries available on
+              <a href='https://rubygems.org/'>Rubygems.</a>
+              I likewise have had a lot of opportunity to use Python, both for all those 1-off command line tools you end up needing, and for academic work.
+            </p>
+            <p>
+              Since September 2013, the vast majority of my time has been going towards a web application called
+              <a href='https://github.com/scheidm/quest-till-done'>Quest Till Done.</a>
+              Built on Rails, it's a very visual productivity tool, and so most of our interface has been JavaScript heavy. For the last few months, I've been experimenting with Javascript frameworks as we begin to migrate the whole project to an AJAX approach.
+            </p>
+            <p>
+              Most of my academic programming in the last few years has been Java, so I remain very comfortable with that language. My first formal code education was in C++, and I remain comfortable enough that I can drop some C extensions into my code when necessary.
+            </p>
+            <p>
+              This past fall I took a Web Developer position at
+              <a href='http://www.liquidpixels.com/'>LiquidPixels.</a>
+              I've since been working hard on developing a new central architecture for their various client facing tools and services. This new project has me up to my elbows in Perl, Javascript, and SQL on a daily basis, and I'm expanding my developers toolbelt daily
+            </p>
+            <p>
+              My next target will likely be
+              <a href='http://clojure.org/'>Clojure</a>
+              as I've been meaning to do some serious functional programming to provide a counterpoint to a formal education that largely focused on the virtues of the Object-Oriented paradigm.
+              I'm still looking for the right project to really leverage the multi-threaded performance benefits of the language before diving in, and in the meantime I have plenty of other
+              <a href='projects'>projects on my plate.</a>
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <h4 class="lang">Python</h4>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+        <h1>
+          <i class='fa fa-desktop fa-fw'></i>
+          Tools of the Trade
+        </h1>
+        <div class='row-fluid row-xs-height'>
+          <div class='col-sm-push-8 col-sm-4 col-xs-12' style='height:273px'>
+            <a href='http://vimdoc.sourceforge.net/'>
+              <img class='img-lrg' src='/assets/media/Vim_logo.png'>
+            </a>
+          </div>
+          <div class='col-sm-pull-4 col-sm-8 col-xs-12'>
+            <p>
+              While I was always attracted to Vim for the speed of expression and wealth of plugins, the proliferation of free or inexpensive server
+              options has made this command line tool even more valuable. It is the standard by which I judge other programs in my dev environment. Once I found
+              <a href='https://github.com/gmarik/Vundle.vim'>Vundle</a>
+              and could host my whole setup on a GitHub repository, bridging my configuration between computers has been a breeze
+            </p>
+            <p>
+              I still remain loyal to Bash, and
+              <a href='https://github.com/tmuxinator/tmuxinator'>Tmux</a>
+              has made managing multiple sessions so much simpler and more powerful than the old days with
+              Screen. Vim-like bindings make the tool instantly comfortable, and make quick work of checking on server errors in my latest web-app.
+            </p>
+            <p>
+              As I often found myself working in Windows environments, I have become passionate about virtualization tools. Since 2013, I have used
+              <a href='https://www.vagrantup.com/'>Vagrant boxes</a>
+              with Virtual Box and VMware Fusion to run a customized Ubuntu environment from within Mac and Windows machines. I've found that modern computers have plenty of overhead
+              to support multiple simultaneous virtual machines, and the having consistency of image between development and deployment helps alleviate some common developer headaches.
+              It is an exciting time in computing, and in the coming year I'm looking forward to taking the next step and migrating my tools to take advantage of tools like
+              <a href='https://www.docker.com/'>Docker</a>
+              to eke further performance out of my virtualized environments.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <h4 class="lang">Javascript</h4>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+        <h1>
+          <i class='fa fa-graduation-cap fa-fw'></i>
+          Education
+        </h1>
+        <div class='row-fluid row-xs-height'>
+          <div class='col-md-4'>
+            <a href='http://www.drexel.edu/'>
+              <img class='img-lrg' src='/assets/media/Drexel.png'>
+            </a>
+          </div>
+          <div class='col-md-8'>
+            <p>
+              I've completed 2 degrees at Drexel University, giving me a rather
+              unique perspective on the world. My first degree was in International
+              Area Studies, which gave me a solid foundation in Mandarin Chinese,
+              Eastern philosophy, and Anthropology. My second degree in Computer
+              Science laid the foundation for my professional career, and earned me
+              domain knowledge of Object Oriented design patterns, data structures
+              and algorithms, and Unix systems.
+            </p>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <h4 class="lang">Java</h4>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+        <h1>
+          <i class='fa fa-comment fa-fw'></i>
+          Languages
+        </h1>
+        <div class='row-fluid'>
+          <div class='col-sm-4 col-xs-12 multilingual'>
+            <div class='col-sm-3 col-xs-12'>
+              <img class='img-sm' src='/assets/media/flag_uk.png'>
+            </div>
+            <div class='col-sm-9 col-xs-12'>
+              <h3 class='flag'>English (Native)</h3>
+            </div>
+          </div>
+          <div class='col-sm-4 col-xs-12 multilingual'>
+            <div class='col-sm-3 col-xs-12'>
+              <img class='img-sm' src='/assets/media/flag_china.png'>
+            </div>
+            <div class='col-sm-9 col-xs-12'>
+              <h3 class='flag'>Mandarin Chinese (Intermediate)</h3>
+            </div>
+          </div>
+          <div class='col-sm-4 col-xs-12 multilingual'>
+            <div class='col-sm-3 col-xs-12'>
+              <img class='img-sm' src='/assets/media/flag_spain.png'>
+            </div>
+            <div class='col-sm-9 col-xs-12'>
+              <h3 class='flag'>Spanish (Beginner)</h3>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row-fluid">
-      <h4 class="lang">C++</h4>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="col-md-8 lang">
-    <p class="lang"> Ruby has been my primary production language since April 2013. I love the freedom of expression Ruby gives you, and the quality of the libraries available on Rubygems. I likewise have had a lot of opportunity to use Python, both for all those 1-off command line tools you end up needing, and for academic work.</p>
-    <p class="lang"> Over the last year, the vast majority of my time has been going towards a web application called Quest Till Done. Built on Rails, it's a very visual productivity tool, and so most of our interface has been JavaScript heavy. For the last few months, I've been playing with frameworks as we begin to migrate the whole project to an AJAX approach.  </p>
-    <p class="lang">Most of my academic programming in the last few years has been Java, so I remain very comfortable with that language. My first formal code education was in C++, and I remain comfortable enough that I can drop some C extensions into my code when necessary."</p>
-  </div>
-</div>
-
-<h1><i class="fa fa-desktop fa-fw"></i> Tools of the Trade</h1>
-
-<div class="row-fluid row-xs-height">
-  <div  class="col-sm-push-8 col-sm-4 col-xs-12" style="height:273px"><img class="img-lrg" src="/assets/media/Vim_logo.png"></div>
-  <div class="col-sm-pull-4 col-sm-8 col-xs-12">
-    <p>While I was always attracted to Vim for the speed of expression and
-    wealth of plugins, the proliferation of free or inexpensive server
-    options has made this command line tool even more valuable. It is the standard
-    by which I judge other programs in my dev environment. Once I found
-    Vundle and could host my whole setup on a GitHub repository, bridging my
-    configuration between computers has been a breeze</p>
-    <p>I still remain loyal to Bash, and Tmux has made managing multiple
-    sessions so much simpler and more powerful than the old days with
-    Screen. Vim-like bindings make the tool instantly comfortable, and make
-    quick work of checking on server errors in my latest web-app.</p>
-  </div>
-</div>
-
-<h1><i class="fa fa-graduation-cap fa-fw"></i> Education</h1>
-
-<div class="row-fluid row-xs-height">
-  <div class="col-md-4"><img class="img-lrg"  src="/assets/media/Drexel.png"></div>
-  <div class="col-md-8">
-    <p>I've completed 2 degrees at Drexel University, giving me a rather
-    unique perspective on the world. My first degree was in International
-    Area Studies, which gave me a solid foundation in Mandarin Chinese,
-    Eastern philosophy, and Anthropology. My second degree in Computer
-    Science laid the foundation for my professional career, and earned me
-    domain knowledge of Object Oriented design patterns, data structures
-    and algorythms, and Unix systems</p>
-  </div>
-</div>
-
-<h1><i class="fa fa-comment fa-fw"></i> Languages</h1>
-
-<ul>
-  <li>English (Native)</li>
-  <li>Mandarin Chinese(Intermediate)</li>
-  <li>Spanish (Beginner)</li>
-</ul>
-
-<h1><i class="fa fa-wrench fa-fw"></i> Frameworks</h1>
-
-<p><a href="http://rubyonrails.org/"><img class="frameworks" src="/assets/media/Ruby_on_Rails.svg.png" alt="Ruby on Rails"></a>
-<a href="https://www.vagrantup.com/"><img class="frameworks" alt="Vagrant" src="/assets/media/vagrant-logo.png"></a>
-<a href="http://cukes.info/"><img class="frameworks" alt="Cucumber BDD" src="/assets/media/cucumber_logo.png"></a>
-<a href="http://bootstrapdocs.com/v3.2.0/docs/"><img class="frameworks" alt="Bootstrap" src="/assets/media/Twitter_Bootstrap_logo.svg.png"></a>
-<a href="https://angularjs.org/"><img class="frameworks" alt="AngularJS" src="/assets/media/AngularJS.png"></a>
-<a href="https://www.getchef.com/"><img class="frameworks" alt="Opscode Chef" src="/assets/media/OC_Chef_Logo.png"></a>
-<a href="http://backbonejs.org/"><img class="frameworks" alt="BackboneJS" src="/assets/media/backbone.png"></a></p>
-
-      </div>
-
-    </div>
-    
-      <div class="footer">
-        <div class="container">
-          <p>© 2014 <a href="mailto:contact@wellcomposed.net">Mark Scheid</a>
-          , built with <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
-          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Bootstrap</a>
+        <div class='row-fluid'>
+          <p>
+            While english is my mother tongue, I enjoy studying other languages. I have dabbled in Spanish since classes in high-school, and aim to improve if for no other reason than a desire to travel to places like Argentina and Peru.
           </p>
-          
-          <p>Theme adapted from template by <a href="https://github.com/vasiliosz">Vasilios Zachariadis</p>
+          <p>I took up Chinese in college, pursuing an interest in Eastern philosophy and Chinese culture. I spent 4 months living in Nanjing as part of study abroad program, exploring the country and studying the original text of the Dao De Jing. The Chinese people were very welcoming and supportive, and I hope to get the chance to return in the future.</p>
         </div>
+        <h1>
+          <i class='fa fa-wrench fa-fw'></i>
+          Frameworks
+        </h1>
+        <a href='http://rubyonrails.org/'>
+          <img alt='Ruby on Rails' class='frameworks' src='/assets/media/Ruby_on_Rails.svg.png'>
+        </a>
+        <a href='https://www.vagrantup.com/'>
+          <img alt='Vagrant' class='frameworks' src='/assets/media/vagrant-logo.png'>
+        </a>
+        <a href='http://cukes.info/'>
+          <img alt='Cucumber BDD' class='frameworks' src='/assets/media/cucumber_logo.png'>
+        </a>
+        <a href='https://www.getchef.com/'>
+          <img alt='Opscode Chef' class='frameworks' src='/assets/media/OC_Chef_Logo.png'>
+        </a>
+        <a href='https://angularjs.org/'>
+          <img alt='AngularJS' class='frameworks' src='/assets/media/AngularJS.png'>
+        </a>
+        <a href='http://backbonejs.org/'>
+          <img alt='BackboneJS' class='frameworks' src='/assets/media/backbone.png'>
+        </a>
+        <a href='http://bootstrapdocs.com/v3.2.0/docs/'>
+          <img alt='Bootstrap' class='frameworks' src='/assets/media/Twitter_Bootstrap_logo.svg.png'>
+        </a>
       </div>
-
-    <!-- Google Prettify -->
-<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
-<script>
-  var pres = document.getElementsByTagName("pre");
-  for (var i=0; i < pres.length; ++i) {
-    pres[i].className = "prettyprint linenums";
-  }
-  prettyPrint();
-</script>
-<!-- end Google Prettify -->
-    
-    <!-- Activate Bootstrap Tooltips and Popovers-->
-    <script type="text/javascript">
-	jQuery(document).ready(function() {
-	  jQuery("time.timeago").timeago();
-	});
-	$("#rcode").click(function () {
-    	this.select();
-	});
-	</script>  
+    </div>
+    <div class='footer'>
+      <div class='container'>
+        <p>
+          © 2015
+          <a href='mailto:contact@wellcomposed.net'>
+            Mark Scheid
+          </a>
+          built with
+          <a href='http://github.com/scheidm/static-zen' target='_blank' title='The minimalist static page engine'>
+            Static Zen
+          </a>
+          and
+          <a href='http://twitter.github.com/bootstrap/' target='_blank' title='The powerful CSS framework from Twitter'>
+            Bootstrap
+          </a>
+        </p>
+      </div>
+    </div>
   </body>
 </html>
